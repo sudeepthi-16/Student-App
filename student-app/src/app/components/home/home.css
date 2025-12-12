@@ -1,0 +1,33 @@
+/* Container for student list */
+.students-container {
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* Individual student card */
+.student-card {
+  background: #eae8e8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Hover effect */
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Improve readability */
+.student-card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.student-card strong {
+  color: #2b3a55;
+}

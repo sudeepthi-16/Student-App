@@ -1,0 +1,44 @@
+/* Layout */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #2b3a55;
+  padding: 25px;
+  color: white;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 0;
+  color: #dbe2ef;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Page Area */
+.content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
